@@ -4,8 +4,8 @@ apt-get install python3
 apt-get install git
 git clone https://github.com/yan4ikyt/webhack/
 cd webhack
-chmod +777 install.sh
-./install.sh
+pip3 install requests
+python3 WebHack.py
 Done!
 For start you need write command : webhack
 
