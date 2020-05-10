@@ -10,7 +10,7 @@ python3 WebHack.py
 ```
 
 Done!
-To start you need write command: `webhack`
+To start you need write command: `python3 webhack.py`
 
 *Thanks for downloading and using this program I'm really happy :)*
 
