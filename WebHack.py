@@ -15,7 +15,7 @@ else:
     dr = '/'
 
 os.system(delet)
-time.sleep(3)
+time.sleep(1)
 
 print("loading modules...")
 time.sleep(0.05)
@@ -234,7 +234,7 @@ print("""
 ████─────█
 ─────────█
 
-██─██──████──█──█──█
+██─██──████──█──█──█──█
 ─███───█──█──██─█──█──█
 ──█────████──█─██──████
 ──█────█──█──█──█─────█
@@ -251,7 +251,7 @@ print("""
 ████─────█
 ─────────█
 
-██─██──████──█──█──█─────███
+██─██──████──█──█──█──█──███
 ─███───█──█──██─█──█──█───█
 ──█────████──█─██──████───█
 ──█────█──█──█──█─────█───█
@@ -268,7 +268,7 @@ print("""
 ████─────█
 ─────────█
 
-██─██──████──█──█──█─────███──█──█
+██─██──████──█──█──█──█──███──█──█
 ─███───█──█──██─█──█──█───█───█─█
 ──█────████──█─██──████───█───██
 ──█────█──█──█──█─────█───█───█─█
@@ -277,14 +277,14 @@ print("""
 """)
 time.sleep(1)
 os.system(delet)
-print('------Version 1.1------\n\nMODYFIED BY 0X40 (t.me/codingbots)')
+print('------Version 1.2------\n')
 time.sleep(5)
 os.system(delet)
 print("""
 Subscribe to Yan4ik Channel on YouTube! 
 https://youtube.com/channel/UCu6l8wKI7WGlwoD1It_vcdw
 
-------Version 1.1------
+------Version 1.2------
 """)
 time.sleep(4)
 os.system(delet)
@@ -308,8 +308,9 @@ print("""
 15. Columbia
 
 ----Project by Yan4ik----
-MODYFIED BY 0X40 (t.me/codingbots)
-------Version 1.1------                      
+Subscribe to Yan4ik Channel on YouTube! 
+https://youtube.com/channel/UCu6l8wKI7WGlwoD1It_vcdw
+------Version 1.2------                      
 """)
 num = int(input("country : "))
 if num == 1:
@@ -667,12 +668,6 @@ https://youtube.com/channel/UCu6l8wKI7WGlwoD1It_vcdw
 --Thanks for using this programm!--
 
 MODYFIED BY 0X40
-
-------Version 1.1------
-""")
- programm!--
-
-MODYFIED BY 0X40 (t.me/codingbots)
 
 ------Version 1.1------
 """)
