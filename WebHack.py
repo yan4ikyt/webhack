@@ -320,7 +320,7 @@ if num == 1:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,82):
 			
-                url = ("https://www.insecam.org/en/bycountry/RU/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/RU/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -344,7 +344,7 @@ if num == 2:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,720):
 			
-                url = ("https://www.insecam.org/en/bycountry/US/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/US/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -367,7 +367,7 @@ if num == 3:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,232):
 			
-                url = ("https://www.insecam.org/en/bycountry/JP/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/JP/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -390,7 +390,7 @@ if num == 4:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,38):
 			
-                url = ("https://www.insecam.org/en/bycountry/CA/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/CA/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -413,7 +413,7 @@ if num == 5:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,5):
 			
-                url = ("https://www.insecam.org/en/bycountry/NZ/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/NZ/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -436,7 +436,7 @@ if num == 6:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,2):
 			
-                url = ("https://www.insecam.org/en/bycountry/UK/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/UK/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -459,7 +459,7 @@ if num == 7:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,107):
 			
-                url = ("https://www.insecam.org/en/bycountry/DE/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/DE/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -482,7 +482,7 @@ if num == 8:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,48):
 			
-                url = ("https://www.insecam.org/en/bycountry/AT/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/AT/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -504,7 +504,7 @@ if num == 9:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,39):
 			
-                url = ("https://www.insecam.org/en/bycountry/ES/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/ES/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -527,7 +527,7 @@ if num == 10:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,54):
 			
-                url = ("https://www.insecam.org/en/bycountry/TR/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/TR/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -550,7 +550,7 @@ if num == 11:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,7):
 			
-                url = ("https://www.insecam.org/en/bycountry/HK/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/HK/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -573,7 +573,7 @@ if num == 12:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,8):
 			
-                url = ("https://www.insecam.org/en/bycountry/GR/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/GR/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -596,7 +596,7 @@ if num == 13:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,7):
 			
-                url = ("https://www.insecam.org/en/bycountry/PT/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/PT/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -619,7 +619,7 @@ if num == 14:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,7):
 			
-                url = ("https://www.insecam.org/en/bycountry/SG/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/SG/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
@@ -642,7 +642,7 @@ if num == 15:
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:68.0) Gecko/20100101 Firefox/68.0'}       
             for page in range (0,6):
 			
-                url = ("https://www.insecam.org/en/bycountry/CO/?page="+str(page))
+                url = ("http://www.insecam.org/en/bycountry/CO/?page="+str(page))
             
                 res = requests.get(url, headers=headers)
                 findip = re.findall('http://\d+.\d+.\d+.\d+:\d+', res.text)
